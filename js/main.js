@@ -67,7 +67,7 @@
 
   function calculateOtherContribution(){
     var otherContribution = 0;
-    var $amount = parseInt($("input[name=other_amount]").val());
+    var $amount = parseInt($("input[name=other_amount]").val().replace(/\$/g, ''));
     otherContribution = (isNaN($amount)) ? 0 : $amount;
     return otherContribution;
   }
