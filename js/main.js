@@ -112,8 +112,8 @@
     if (otherContributionAmount > 0){
       items ++
       url += "&cart[items]["+items+"][amount]="+otherContributionAmount;
-      url += "&cart[items]["+items+"][desc]=Additional Donation";
-      url += "&cart[items]["+items+"][product_id]=additional_donation";
+      url += "&cart[items]["+items+"][desc]=General Donation";
+      url += "&cart[items]["+items+"][product_id]=general_donation";
       url += "&cart[items]["+items+"][quantity]=1";
     }
     if (items > 0){
