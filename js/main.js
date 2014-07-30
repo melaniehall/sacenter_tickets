@@ -93,7 +93,7 @@
 
     var otherContributionAmount = calculateOtherContribution();
 
-    var url = "https://sacenter.trail-staging.us/widget?campaign_id=5379&schedule=0&success_url=http%3A//www.sacenter.org/&cart[desc]=Mad"
+    var url = "https://sacenter.kindful.com/widget?campaign_id=4293&schedule=0&success_url=http%3A//www.sacenter.org/&cart[desc]=Mad"
     url += " Hatter 2014";
     if ($quantity > 0){
       items ++;
